@@ -110,3 +110,10 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        // 2. Column Konten Utama
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp)
+        )
