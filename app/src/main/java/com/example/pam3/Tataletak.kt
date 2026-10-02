@@ -96,3 +96,17 @@ fun TataletakRowColumn(modifier: Modifier) {
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
+    val gambarSample = painterResource(id = R.drawable.ic_launcher_background)
+
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopCenter
+    ) {
+        // 1. Background Gambar Full Screen
+        Image(
+            painter = painterResource(id = R.drawable.latar),
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
