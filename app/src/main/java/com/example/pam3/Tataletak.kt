@@ -143,3 +143,24 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(30.dp))
+
+            // Teks Identitas
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "Randi Rozikin",
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold,
+                fontSize = 16.sp
+            )
+            Text(
+                text = "20240140140",
+                color = Color.Black,
+                fontWeight = FontWeight.Bold,
+                fontSize = 18.sp
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
