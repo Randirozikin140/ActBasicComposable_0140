@@ -131,3 +131,15 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(24.dp))
+
+            // Logo Universitas (Dipotong Bulat)
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo",
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
