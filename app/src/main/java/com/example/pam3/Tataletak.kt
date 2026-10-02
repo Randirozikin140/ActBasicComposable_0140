@@ -164,3 +164,16 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(30.dp))
+
+            // Gambar Lingkaran Bagian Bawah
+            Image(
+                painter = painterResource(id = R.drawable.foto),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+        }
+    }
+}
